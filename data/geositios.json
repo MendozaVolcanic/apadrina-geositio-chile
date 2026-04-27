@@ -1,0 +1,443 @@
+[
+  {
+    "id": "GST-001",
+    "nombre": "Granito Orbicular de Diego de Almagro",
+    "region": "Atacama",
+    "lat": -27.07,
+    "lon": -70.84,
+    "descripcion_corta": "Roca plutónica con estructura orbicular única en el mundo, formada hace ~150 Ma.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-002",
+    "nombre": "Caos de Puquios",
+    "region": "Atacama",
+    "lat": -27.5,
+    "lon": -70.45,
+    "descripcion_corta": "Afloramiento de bloques volcánicos caóticos del Mioceno tardío.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-003",
+    "nombre": "Quebrada El Carbón",
+    "region": "Atacama",
+    "lat": -28.0,
+    "lon": -69.5,
+    "descripcion_corta": "Secuencia sedimentaria carbonífera con flora fósil preservada.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-004",
+    "nombre": "Salar de Maricunga",
+    "region": "Atacama",
+    "lat": -27.1,
+    "lon": -68.5,
+    "descripcion_corta": "Salar de altura con depósitos evaporíticos y minerales de litio.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-005",
+    "nombre": "Laguna Verde y Volcán Licancabur",
+    "region": "Atacama",
+    "lat": -27.5,
+    "lon": -69.0,
+    "descripcion_corta": "Laguna altiplánica de color verde azufrado bajo el estratovolcán Licancabur.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-006",
+    "nombre": "Cerro Ballena — Fósiles de Cetáceos",
+    "region": "Atacama",
+    "lat": -27.1,
+    "lon": -70.85,
+    "descripcion_corta": "Yacimiento paleontológico excepcional con más de 40 esqueletos de ballenas del Mioceno.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-007",
+    "nombre": "Valle de la Luna — Formación Llano",
+    "region": "Antofagasta",
+    "lat": -22.9,
+    "lon": -68.2,
+    "descripcion_corta": "Paisaje lunar con evaporitas y halitas esculpidas por erosión en el desierto de Atacama.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-008",
+    "nombre": "Géiseres del Tatio",
+    "region": "Antofagasta",
+    "lat": -22.33,
+    "lon": -68.01,
+    "descripcion_corta": "Campo geotérmico a 4 200 m s.n.m., el más alto del mundo con actividad géiser.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-009",
+    "nombre": "Salar de Atacama — Núcleo Halítico",
+    "region": "Antofagasta",
+    "lat": -23.5,
+    "lon": -68.25,
+    "descripcion_corta": "Mayor salar de Chile, con depósitos de salmueras ricas en litio y boratos.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-010",
+    "nombre": "Quebrada de Guatín — Ignimbritas Cerro Galan",
+    "region": "Antofagasta",
+    "lat": -24.1,
+    "lon": -68.4,
+    "descripcion_corta": "Afloramiento de ignimbritas pliocenas vinculadas a la caldera Galán.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-011",
+    "nombre": "Monumento Natural La Portada",
+    "region": "Antofagasta",
+    "lat": -23.63,
+    "lon": -70.55,
+    "descripcion_corta": "Arco marino en areniscas y calizas miocenas, ícono geomorfológico costero.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-012",
+    "nombre": "Caldera Peinado — Complejo Volcánico",
+    "region": "Antofagasta",
+    "lat": -26.5,
+    "lon": -68.1,
+    "descripcion_corta": "Caldera de colapso del Mioceno con depósitos de flujos piroclásticos bien preservados.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-013",
+    "nombre": "Paleocanal de Atacama — Quebrada Paposo",
+    "region": "Antofagasta",
+    "lat": -25.02,
+    "lon": -70.47,
+    "descripcion_corta": "Registro sedimentario de antiguos drenajes atlánticos invertidos en el Oligoceno.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-014",
+    "nombre": "Mina El Indio — Epitermal de Alta Sulfuración",
+    "region": "Coquimbo",
+    "lat": -29.97,
+    "lon": -70.05,
+    "descripcion_corta": "Depósito epitermal de Au-Ag-Cu que ilustra procesos hidrotermales de arco volcánico.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-015",
+    "nombre": "Embalse La Paloma — Corte Estratigráfico",
+    "region": "Coquimbo",
+    "lat": -30.68,
+    "lon": -71.05,
+    "descripcion_corta": "Sección de 400 m de secuencias marinas jurásicas con fauna de ammonites.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-016",
+    "nombre": "Falla de Vicuña — Escarpe Sísmico",
+    "region": "Coquimbo",
+    "lat": -30.03,
+    "lon": -70.7,
+    "descripcion_corta": "Escarpe activo en granitos carboníferos, evidencia de sismicidad histórica.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-017",
+    "nombre": "Coquimbo — Terrazas Marinas Pleistocenas",
+    "region": "Coquimbo",
+    "lat": -29.95,
+    "lon": -71.33,
+    "descripcion_corta": "Sistema de terrazas litorales que registra cambios de nivel del mar cuaternarios.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-018",
+    "nombre": "Cerro Mercedario — Plutón Triásico",
+    "region": "Coquimbo",
+    "lat": -31.97,
+    "lon": -70.11,
+    "descripcion_corta": "Batolito triásico con xenolitos mantélicos y minerales de alta presión.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-019",
+    "nombre": "Zapallar — Contacto Triásico-Jurásico",
+    "region": "Valparaíso",
+    "lat": -32.55,
+    "lon": -71.46,
+    "descripcion_corta": "Afloramiento costero que expone el límite litoestratigráfico Triásico-Jurásico.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-020",
+    "nombre": "Isla de Pascua — Volcanes Terevaka y Rano Kau",
+    "region": "Valparaíso",
+    "lat": -27.11,
+    "lon": -109.36,
+    "descripcion_corta": "Punto caliente oceánico con basaltos alcalinos, calderas y conos de escoria.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-021",
+    "nombre": "Estero Marga Marga — Terrazas Fluviales",
+    "region": "Valparaíso",
+    "lat": -33.04,
+    "lon": -71.47,
+    "descripcion_corta": "Secuencia de terrazas fluviales cuaternarias con registro de variaciones climáticas.",
+    "relevancia": "local"
+  },
+  {
+    "id": "GST-022",
+    "nombre": "Cajón del Maipo — Granodiorita Intrusiva",
+    "region": "Metropolitana",
+    "lat": -33.75,
+    "lon": -70.08,
+    "descripcion_corta": "Sección del batolito andino con estructuras de emplazamiento magmático cretácico.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-023",
+    "nombre": "Cerro El Plomo — Permafrost Andino",
+    "region": "Metropolitana",
+    "lat": -33.49,
+    "lon": -70.13,
+    "descripcion_corta": "Evidencias de permafrost de altitud y procesos periglaciares activos a 5 400 m.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-024",
+    "nombre": "Lo Barnechea — Depósito de Avalancha de Escombros",
+    "region": "Metropolitana",
+    "lat": -33.35,
+    "lon": -70.48,
+    "descripcion_corta": "Depósito caótico de avalancha de escombros del Pleistoceno tardío.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-025",
+    "nombre": "Curacaví — Pliegues Andinos en Mesetas Basálticas",
+    "region": "Metropolitana",
+    "lat": -33.4,
+    "lon": -71.15,
+    "descripcion_corta": "Basaltos miocenos plegados que evidencian el acortamiento cortical andino.",
+    "relevancia": "local"
+  },
+  {
+    "id": "GST-026",
+    "nombre": "Sewell — Mineralización Pórfido Cuprífero",
+    "region": "O'Higgins",
+    "lat": -34.08,
+    "lon": -70.38,
+    "descripcion_corta": "Mina El Teniente: pórfido de Cu más grande del mundo, en un complejo batolítico mioceno.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-027",
+    "nombre": "Pichilemu — Zona de Ruptura Terremoto 2010",
+    "region": "O'Higgins",
+    "lat": -34.38,
+    "lon": -72.0,
+    "descripcion_corta": "Costa epicentral del Mw 8.8 de 2010, con registros de licuefacción y tsunamis.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-028",
+    "nombre": "Laguna del Maule — Caldera y Riolitas Recientes",
+    "region": "Maule",
+    "lat": -36.05,
+    "lon": -70.55,
+    "descripcion_corta": "Campo volcánico con domos riolíticos postglaciales e intensa deformación activa.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-029",
+    "nombre": "Chanco — Depósitos de Tsunami Histórico",
+    "region": "Maule",
+    "lat": -35.73,
+    "lon": -72.52,
+    "descripcion_corta": "Registro sedimentario de tsunamis históricos en cordón litoral del Maule.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-030",
+    "nombre": "Volcán Descabezado Grande — Caldera Piroclástica",
+    "region": "Maule",
+    "lat": -35.58,
+    "lon": -70.75,
+    "descripcion_corta": "Caldera con depósitos de caída pumicíticos del Holoceno tardío.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-031",
+    "nombre": "Cobquecura — Afloramientos Jurásicos Costeros",
+    "region": "Ñuble",
+    "lat": -36.14,
+    "lon": -72.78,
+    "descripcion_corta": "Rocas jurásicas en acantilados activos con fauna marina fósil in situ.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-032",
+    "nombre": "Nevados de Chillán — Sistema Volcánico Activo",
+    "region": "Ñuble",
+    "lat": -36.86,
+    "lon": -71.38,
+    "descripcion_corta": "Complejo volcánico dacítico con actividad fumarólica persistente y lahares recientes.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-033",
+    "nombre": "Curanilahue — Cuenca Carbonífera del Biobío",
+    "region": "Biobío",
+    "lat": -37.47,
+    "lon": -73.35,
+    "descripcion_corta": "Secuencia permocarboníffera con carbón bituminoso y flora glossopteridea.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-034",
+    "nombre": "Lota — Paleomina Submarina de Carbón",
+    "region": "Biobío",
+    "lat": -37.09,
+    "lon": -73.16,
+    "descripcion_corta": "Yacimiento de carbón cretácico explotado bajo el lecho marino, patrimonio minero.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-035",
+    "nombre": "Laguna del Laja — Colada Basáltica Antuco",
+    "region": "Biobío",
+    "lat": -37.42,
+    "lon": -71.3,
+    "descripcion_corta": "Colada de basalto olivínico reciente que represó el río Laja formando la laguna.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-036",
+    "nombre": "Volcán Villarrica — Estratovolcán Basáltico Activo",
+    "region": "Araucanía",
+    "lat": -39.42,
+    "lon": -71.93,
+    "descripcion_corta": "Uno de los volcanes más activos de Sudamérica, con lago de lava permanente.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-037",
+    "nombre": "Conguillio — Coladas de Llaima y Araucarias Petrificadas",
+    "region": "Araucanía",
+    "lat": -38.65,
+    "lon": -71.65,
+    "descripcion_corta": "Coladas andesíticas históricas y bosques de araucaria sobre lavas recientes.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-038",
+    "nombre": "Curacautín — Manto de Pómez Llaima",
+    "region": "Araucanía",
+    "lat": -38.43,
+    "lon": -71.88,
+    "descripcion_corta": "Depósito de caída pumicítico de la erupción de 1640 del volcán Llaima.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-039",
+    "nombre": "Siete Tazas — Marmitas Fluvioglaciales",
+    "region": "Maule",
+    "lat": -35.47,
+    "lon": -71.0,
+    "descripcion_corta": "Marmitas de gigante esculpidas en basaltos por torrentes glaciofluviales del Pleistoceno.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-040",
+    "nombre": "Valdivia — Depósitos del Terremoto de 1960",
+    "region": "Los Ríos",
+    "lat": -39.81,
+    "lon": -73.24,
+    "descripcion_corta": "Registros geológicos superficiales del mayor terremoto instrumental de la historia (Mw 9.5).",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-041",
+    "nombre": "Osorno — Estratovolcán Glaciado",
+    "region": "Los Lagos",
+    "lat": -41.1,
+    "lon": -72.49,
+    "descripcion_corta": "Cono basáltico simétrico cubierto por glaciar, sinónimo visual de los Andes patagónicos.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-042",
+    "nombre": "Ralún — Complejo de Morrenas del LGM",
+    "region": "Los Lagos",
+    "lat": -41.67,
+    "lon": -72.44,
+    "descripcion_corta": "Morfología morrénica del Último Máximo Glacial que delimita el fiordo Reloncaví.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-043",
+    "nombre": "Chiloé — Diques en Essaim Basáltico",
+    "region": "Los Lagos",
+    "lat": -42.62,
+    "lon": -73.98,
+    "descripcion_corta": "Enjambre de diques basálticos jurásicos en acantilados de Chiloé continental.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-044",
+    "nombre": "Puerto Montt — Arcillas de Lahares Osorno",
+    "region": "Los Lagos",
+    "lat": -41.47,
+    "lon": -72.94,
+    "descripcion_corta": "Depósitos de lahares históricos del volcán Osorno preservados en terrazas costeras.",
+    "relevancia": "local"
+  },
+  {
+    "id": "GST-045",
+    "nombre": "Cochrane — Fiordo Bertrand y Morrenas Colgantes",
+    "region": "Aysén",
+    "lat": -47.25,
+    "lon": -72.56,
+    "descripcion_corta": "Circos y morrenas colgantes del Pleistoceno superior en granitos del batolito patagónico.",
+    "relevancia": "regional"
+  },
+  {
+    "id": "GST-046",
+    "nombre": "Cerro Castillo — Ignimbritas y Fósiles Cretácicos",
+    "region": "Aysén",
+    "lat": -46.1,
+    "lon": -72.18,
+    "descripcion_corta": "Torres de ignimbritas welded cretácicas sobre sedimentos con flora gondwánica.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-047",
+    "nombre": "Caldera Hudson — Erupción Pliniana 1991",
+    "region": "Aysén",
+    "lat": -45.9,
+    "lon": -72.97,
+    "descripcion_corta": "Caldera glaciada con registro de la erupción catastrófica de 1991 (VEI 5+).",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-048",
+    "nombre": "Torres del Paine — Lacólito Granítico",
+    "region": "Magallanes",
+    "lat": -50.95,
+    "lon": -72.97,
+    "descripcion_corta": "Intrusión de granito mioceno que levantó pizarras cretácicas formando torres únicas.",
+    "relevancia": "nacional"
+  },
+  {
+    "id": "GST-049",
+    "nombre": "Punta Arenas — Terrazas Pleistocenas y Fósiles Marinos",
+    "region": "Magallanes",
+    "lat": -53.15,
+    "lon": -70.91,
+    "descripcion_corta": "Terrazas marinas cuaternarias con fauna fósil del estrecho de Magallanes.",
+    "relevancia": "regional"
+  }
+]

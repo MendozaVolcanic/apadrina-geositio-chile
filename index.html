@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apadrina un Geositio · Chile</title>
+  <meta name="description" content="Visor de ciencia ciudadana para el patrimonio geológico de Chile. Reporta visitas a los 49 geositios del Inventario Nacional SERNAGEOMIN 2024." />
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <!-- App CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── HEADER ──────────────────────────────────── -->
+  <header id="header">
+    <h1>
+      <span class="geo-icon" aria-hidden="true">⛰</span>
+      Apadrina un Geositio · Chile
+    </h1>
+    <a class="suite-link" href="../" title="Volver a la Suite Geopatrimonio">
+      ← Suite Geopatrimonio
+    </a>
+  </header>
+
+  <!-- ── LAYOUT ──────────────────────────────────── -->
+  <div id="app">
+
+    <!-- ── SIDEBAR ─────────────────────────────── -->
+    <aside id="sidebar">
+      <div id="sidebar-header">
+        <div class="counter-badge">
+          <span class="counter-dot"></span>
+          <strong id="counter-num">0</strong>
+          <span>geositios monitoreados</span>
+        </div>
+        <select id="region-filter" aria-label="Filtrar por región">
+          <option value="">Todas las regiones</option>
+        </select>
+      </div>
+      <div id="geositio-list" role="list" aria-label="Lista de geositios"></div>
+    </aside>
+
+    <!-- ── MAP ────────────────────────────────── -->
+    <div id="map" role="main" aria-label="Mapa de geositios de Chile"></div>
+
+  </div><!-- /app -->
+
+  <!-- ── LEYENDA ─────────────────────────────────── -->
+  <div id="leyenda" aria-hidden="true">
+    <div class="ley-title">Relevancia</div>
+    <div class="ley-item"><span class="ley-dot" style="background:#d9764a"></span>Nacional</div>
+    <div class="ley-item"><span class="ley-dot" style="background:#5fb878"></span>Regional</div>
+    <div class="ley-item"><span class="ley-dot" style="background:#8b949e"></span>Local</div>
+  </div>
+
+  <!-- ── PANEL DETALLE ───────────────────────────── -->
+  <aside id="detail-panel" aria-label="Detalle del geositio" aria-hidden="true">
+    <div id="detail-header">
+      <div class="detail-title">
+        <h2 id="detail-nombre"></h2>
+        <div class="detail-meta">
+          <span class="detail-codigo" id="detail-codigo"></span>
+          <span class="detail-region" id="detail-region"></span>
+          <span class="badge-relevancia" id="detail-relevancia"></span>
+        </div>
+      </div>
+      <button id="close-detail" aria-label="Cerrar panel">×</button>
+    </div>
+
+    <div id="detail-body">
+      <p class="detail-desc" id="detail-desc"></p>
+
+      <!-- Formulario de reporte -->
+      <p class="section-title">Reportar visita</p>
+
+      <form id="report-form" autocomplete="off">
+        <div class="form-group">
+          <label for="report-fecha">Fecha de visita</label>
+          <input type="date" id="report-fecha" required />
+        </div>
+        <div class="form-group">
+          <label for="report-visitante">Nombre (opcional)</label>
+          <input type="text" id="report-visitante" placeholder="Tu nombre o alias" maxlength="80" />
+        </div>
+        <div class="form-group">
+          <label for="report-conservacion">Estado de conservación</label>
+          <select id="report-conservacion" required>
+            <option value="bueno">Bueno</option>
+            <option value="regular">Regular</option>
+            <option value="deteriorado">Deteriorado</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="report-obs">Observación</label>
+          <textarea id="report-obs" placeholder="Describe lo que observaste: accesibilidad, señalética, impacto antrópico…" maxlength="600"></textarea>
+        </div>
+
+        <p class="form-note">
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+            <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm0 2.5a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5zm-.75 3h1.5v5h-1.5V6.5z"/>
+          </svg>
+          Los datos se guardan localmente (localStorage) en este dispositivo.
+        </p>
+
+        <button type="submit" class="btn-submit" id="btn-submit">Enviar reporte</button>
+      </form>
+
+      <!-- Reportes previos -->
+      <div id="reportes-section">
+        <p class="section-title">Reportes anteriores</p>
+        <div id="reportes-lista"></div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ── TOAST ───────────────────────────────────── -->
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLs=" crossorigin=""></script>
+
+  <!-- App JS -->
+  <script src="app.js"></script>
+</body>
+</html>
