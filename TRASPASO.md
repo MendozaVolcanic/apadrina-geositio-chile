@@ -82,3 +82,21 @@ Leaflet y el mapa no cargaba**. Corregido al hash real
 - [georrutas-chile](https://github.com/MendozaVolcanic/georrutas-chile) — rutas geoturísticas
 - **apadrina-geositio-chile** *(este repo)*
 - [dashboard-22-contextos](https://github.com/MendozaVolcanic/dashboard-22-contextos) — gestión SGCh
+
+## Pendientes de la auditoría de código
+
+Auditoría del 2026-08-24 con seis revisores. Informe completo en el repo maestro:
+[`contextos-geologicos/reviews/code-review/`](https://github.com/MendozaVolcanic/contextos-geologicos/blob/main/reviews/code-review/2026-08-24_CODE-REVIEW-REPORT.md).
+
+**Ya corregido:** el hash SRI de Leaflet que impedía cargar el mapa.
+
+**Abierto — decisión de arquitectura, no urgente.** Los tres dashboards de la Suite
+comparten utilidades casi idénticas (helper de creación de nodos, manejo de pestañas, carga
+de datos, render de tablas y mapas). Un revisor lo marcó como crítico y **se rebajó a
+menor** por una razón concreta: son tres repos independientes, cada uno con su propio
+deploy a GitHub Pages. Compartir código entre ellos exigiría submodules de git o servir un
+`shared.js` desde un CDN, y ese acoplamiento entre repos con ciclos de vida separados es
+peor problema que la duplicación actual. Si algún día se consolidan en un solo repo con
+tres carpetas, ahí sí conviene extraer el núcleo común.
+
+Ninguno de los tres proyectos tiene linters ni tests configurados.
